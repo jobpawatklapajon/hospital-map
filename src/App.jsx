@@ -46,13 +46,13 @@ function App() {
     duration-500 
     ease-in-out 
     ${selectedClinic ? 'h-full flex-1' : mapExpanded ? 'h-3/5' : 'h-3/5'} 
-    overflow-y-hidden
+    overflow-y-auto
     border-t
     border-gray-200
   `;
 
   return (
-    <div className='flex flex-col h-screen w-screen bg-gray-50 transition-all duration-300'>
+    <div className='flex flex-col h-screen w-screen bg-gray-50 transition-all duration-300 overflow-hidden'>
       {/* Map Section */}
       <div 
         className={mapContainerClass}
