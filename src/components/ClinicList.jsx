@@ -165,7 +165,7 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
 
     // Render appropriate view based on selection state
     return (
-        <div className="h-full w-full overflow-y-auto px-4 pt-5 pb-20" style={{ WebkitOverflowScrolling: 'touch' }}>
+        <div className="h-full w-full overflow-y-auto px-4 pt-5 pb-28" style={{ WebkitOverflowScrolling: 'touch' }}>
             {selectedBuild == null ? (
                 // All clinics view
                 <>
