@@ -1,12 +1,29 @@
 import MapView from './components/Mapview.jsx';
 import ClinicList from './components/ClinicList.jsx';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
 function App() {
   // State management
   const [selectedBuild, setSelectedBuild] = useState(null);
   const [selectedClinic, setSelectedClinic] = useState(null);
   const [mapExpanded, setMapExpanded] = useState(false);
+
+  // Prevent body scrolling on mount
+  useEffect(() => {
+    // Prevents Safari from allowing body scrolls
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.height = '100%';
+    
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.position = '';
+      document.body.style.width = '';
+      document.body.style.height = '';
+    };
+  }, []);
 
   // Event handlers
   const handleSelectedBuild = useCallback((build, event) => {
@@ -17,11 +34,12 @@ function App() {
     setMapExpanded(false);
   }, []);
 
-  const handleMapTouch = useCallback(() => {
+  const handleMapTouch = useCallback((e) => {
+    e.preventDefault(); // Prevent default Safari touch behavior
     setMapExpanded(false);
   }, []);
 
-  const handleClinicTouch = useCallback(() => {
+  const handleClinicTouch = useCallback((e) => {
     if (!selectedClinic) {
       setMapExpanded(false);
     }
@@ -52,7 +70,7 @@ function App() {
   `;
 
   return (
-    <div className='flex flex-col h-screen w-screen bg-gray-50 transition-all duration-300 overflow-hidden'>
+    <div className='flex flex-col h-screen w-screen bg-gray-50 transition-all duration-300 overflow-hidden touch-none'>
       {/* Map Section */}
       <div 
         className={mapContainerClass}
