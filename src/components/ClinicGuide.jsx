@@ -10,7 +10,7 @@ export default function ClinicGuide({
   handleBackToBuildings,
 }) {
   return (
-    <div className="h-full w-full overflow-y-auto px-4 pt-5 pb-28 relative" style={{ WebkitOverflowScrolling: 'touch' }}>
+    <div className="h-full w-full overflow-y-auto px-4 pt-5 pb-32 relative" style={{ WebkitOverflowScrolling: 'touch' }}>
       <div className="mb-6 flex items-center justify-center">
         <HiOutlineMapPin size={24} className="text-[#7ac142] mr-2" />
         <h2 className="text-lg font-bold text-gray-800">

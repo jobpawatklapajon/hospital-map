@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useMemo, useCallback } from "react";
+import { useState, useEffect, lazy, Suspense, useMemo, useCallback, useRef } from "react";
 import { FaHospital, FaArrowLeft, FaExclamationTriangle } from "react-icons/fa";
 import { HiOutlineMap } from "react-icons/hi";
 import PropTypes from 'prop-types';
@@ -104,6 +104,42 @@ BackButton.propTypes = {
 // Main component
 export default function ClinicList({ selectedBuild, handleSelectedBuild, selectedClinic, setSelectedClinic }) {
     const [clinics] = useState(clinicData.clinics);
+    const [isScrollingDown, setIsScrollingDown] = useState(false);
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+    const scrollContainerRef = useRef(null);
+
+    // Reinitialize the scroll handler whenever the component mounts or selectedClinic changes
+    useEffect(() => {
+        // Reset scroll state when returning from clinic guide
+        if (!selectedClinic) {
+            setLastScrollTop(0);
+            setIsScrollingDown(false);
+        }
+    }, [selectedClinic]);
+
+    // Handle scroll events to show/hide controls
+    useEffect(() => {
+        const scrollContainer = scrollContainerRef.current;
+        if (!scrollContainer) return;
+        
+        const handleScroll = () => {
+            const scrollTop = scrollContainer.scrollTop;
+            
+            if (scrollTop > lastScrollTop + 5) {
+                // Scrolling down (smaller threshold for better responsiveness)
+                setIsScrollingDown(true);
+            } else if (scrollTop < lastScrollTop - 2) {
+                // Scrolling up (even smaller threshold for quicker detection of upward scrolling)
+                setIsScrollingDown(false);
+            }
+            
+            // Update last scroll position
+            setLastScrollTop(scrollTop);
+        };
+
+        scrollContainer.addEventListener('scroll', handleScroll, { passive: true });
+        return () => scrollContainer.removeEventListener('scroll', handleScroll);
+    }, [lastScrollTop, selectedClinic]);
 
     const handleClinicSelect = useCallback((clinic) => {
         setSelectedClinic(clinic);
@@ -165,7 +201,11 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
 
     // Render appropriate view based on selection state
     return (
-        <div className="h-full w-full overflow-y-auto px-4 pt-5 pb-28" style={{ WebkitOverflowScrolling: 'touch' }}>
+        <div 
+            ref={scrollContainerRef}
+            className="h-full w-full overflow-y-auto px-4 pt-5 pb-32" 
+            style={{ WebkitOverflowScrolling: 'touch' }}
+        >
             {selectedBuild == null ? (
                 // All clinics view
                 <>
@@ -189,7 +229,7 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
                         {clinicsInBuild}
                     </div>
                     
-                    <div className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-sm shadow-md border-t border-[#7ac142]/20">
+                    <div className={`fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-sm shadow-md border-t border-[#7ac142]/20 transition-transform duration-300 ease-in-out ${isScrollingDown ? 'translate-y-full' : 'translate-y-0'}`}>
                         <div className="container mx-auto px-4 py-3 flex justify-center gap-x-3 max-w-md">
                             <BackButton 
                                 onClick={handleBackToBuildings}
