@@ -6,7 +6,7 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [ 
                 {
-                    "path": "/Navigation/00ลงทะเบียน/00_ลงทะเบียน_01.webp",
+                    "path": "/Navigation/00ลงทะเบียน/00_ลงทะเบียน_01.png",
                     "description": "บริเวณหน้าอาคารอำนวยการ"
                 }
             ]
@@ -17,19 +17,19 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด01.webp",
+                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด01.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด02.webp",
+                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด02.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด03.webp",
+                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด03.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด04.webp",
+                    "path": "/Navigation/01เจาะเลือด/01เจาะเลือด04.png",
                     "description": "ตรงไปจนสุดทางเดิน และเลี้ยวซ้าย"
                 }
             ]
@@ -40,19 +40,19 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_01.webp",
+                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_01.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_02.webp",
+                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_02.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_03.webp",
+                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_03.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_04.webp",
+                    "path": "/Navigation/02ตรวจตับ/02_ตรวจตับ_04.png",
                     "description": "จุดคลินิคตรวจตับ"
                 }
             ]
@@ -63,23 +63,23 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/03กระดูก/Picture1.webp",
+                    "path": "/Navigation/03กระดูก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/03กระดูก/Picture2.webp",
+                    "path": "/Navigation/03กระดูก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/03กระดูก/Picture3.webp",
+                    "path": "/Navigation/03กระดูก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/03กระดูก/Picture4.webp",
+                    "path": "/Navigation/03กระดูก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน"
                 },
                 {
-                    "path": "/Navigation/03กระดูก/Picture5.webp",
+                    "path": "/Navigation/03กระดูก/Picture5.png",
                     "description": "จุดตรวจอยู่ด้านขวามือ"
                 }
             ]
@@ -90,23 +90,23 @@
             "build": "อาคารออร์โธปิดิกส์",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/04X-ray/Picture1.webp",
+                    "path": "/Navigation/04X-ray/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/04X-ray/Picture2.webp",
+                    "path": "/Navigation/04X-ray/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/04X-ray/Picture3.webp",
+                    "path": "/Navigation/04X-ray/Picture3.png",
                     "description": "เดินตรงไปตนสุดทาง"
                 },
                 {
-                    "path": "/Navigation/04X-ray/Picture4.webp",
+                    "path": "/Navigation/04X-ray/Picture4.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/04X-ray/Picture5.webp",
+                    "path": "/Navigation/04X-ray/Picture5.png",
                     "description": "เลี้ยวขวา เข้าอาคารออรืโธปิดิคส์"
                 }
             ]
@@ -117,27 +117,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -148,27 +148,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -179,27 +179,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -210,27 +210,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -241,27 +241,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -272,27 +272,27 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.webp",
+                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก"
                 }
             ]
@@ -303,31 +303,31 @@
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/07เด็ก/Picture1.webp",
+                    "path": "/Navigation/07เด็ก/Picture1.png",
                     "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture2.webp",
+                    "path": "/Navigation/07เด็ก/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture3.webp",
+                    "path": "/Navigation/07เด็ก/Picture3.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture4.webp",
+                    "path": "/Navigation/07เด็ก/Picture4.png",
                     "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture5.webp",
+                    "path": "/Navigation/07เด็ก/Picture5.png",
                     "description": "ขึ้นไปที่ชั้น 2"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture6.webp",
+                    "path": "/Navigation/07เด็ก/Picture6.png",
                     "description": "ตรงเข้าแผนกผู้ป่วยนอก และเลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/07เด็ก/Picture7.webp",
+                    "path": "/Navigation/07เด็ก/Picture7.png",
                     "description": "เดินตรงไป จะพบจุดตรวจ"
                 }
             ]
@@ -338,15 +338,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.png",
                     "description": "จุดตรวจอยู่ด้านขวามือ"
                 }
             ]
@@ -357,15 +357,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.png",
                     "description": "จุดตรวจอยู่ด้านขวามือ"
                 }
             ]
@@ -376,15 +376,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.webp",
+                    "path":"/Navigation/080910หัวใจ+echo+abi/Picture3.png",
                     "description": "จุดตรวจอยู่ด้านขวามือ"
                 }
             ]
@@ -395,15 +395,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/11หลอดเลือด/Picture1.webp",
+                    "path":"/Navigation/11หลอดเลือด/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/11หลอดเลือด/Picture2.webp",
+                    "path":"/Navigation/11หลอดเลือด/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/11หลอดเลือดที่ท้อง/Picture3.webp",
+                    "path":"/Navigation/11หลอดเลือดที่ท้อง/Picture3.png",
                     "description": "ตรงไปจนสุดทางเดิน จุดตรวจจะอยู่ด้านขวามือ"
                 }
             ]
@@ -414,27 +414,27 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture1.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture2.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture3.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture3.png",
                     "description": "เลี้ยวซ้ายไปที่ลิฟท์โดยสาร"
                 },
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture4.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture4.png",
                     "description": "ขึ้นไปที่ชั้น 3"
                 },
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture5.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture5.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/12ผิวหนัง/Picture6.webp",
+                    "path":"/Navigation/12ผิวหนัง/Picture6.png",
                     "description": "ตรงเข้าแผนกอายุรกรรมทั่วไป"
                 }
             ]
@@ -445,35 +445,35 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/13จิตเวช/Picture1.webp",
+                    "path":"/Navigation/13จิตเวช/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture2.webp",
+                    "path":"/Navigation/13จิตเวช/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture3.webp",
+                    "path":"/Navigation/13จิตเวช/Picture3.png",
                     "description": "เลี้ยวซ้ายไปที่ลิฟท์โดยสาร"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture4.webp",
+                    "path":"/Navigation/13จิตเวช/Picture4.png",
                     "description": "ขึ้นไปที่ชั้น 3"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture5.webp",
+                    "path":"/Navigation/13จิตเวช/Picture5.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture6.webp",
+                    "path":"/Navigation/13จิตเวช/Picture6.png",
                     "description": "เลี้ยวขวาหน้าแผนกอายุรกรรมทั่วไป"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture7.webp",
+                    "path":"/Navigation/13จิตเวช/Picture7.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/13จิตเวช/Picture8.webp",
+                    "path":"/Navigation/13จิตเวช/Picture8.png",
                     "description": "ตรงเข้า คลินิคโรคไต และคลินิคจิตเวช"
                 }
             ]
@@ -484,27 +484,27 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/14ตา/Picture1.webp",
+                    "path":"/Navigation/14ตา/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/14ตา/Picture2.webp",
+                    "path":"/Navigation/14ตา/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/14ตา/Picture3.webp",
+                    "path":"/Navigation/14ตา/Picture3.png",
                     "description": "เลี้ยวซ้ายไปที่ลิฟท์โดยสาร"
                 },
                 {
-                    "path":"/Navigation/14ตา/Picture4.webp",
+                    "path":"/Navigation/14ตา/Picture4.png",
                     "description": "ขึ้นไปที่ชั้น 4"
                 },
                 {
-                    "path":"/Navigation/14ตา/Picture5.webp",
+                    "path":"/Navigation/14ตา/Picture5.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/14ตา/Picture6.webp",
+                    "path":"/Navigation/14ตา/Picture6.png",
                     "description": "ตรงเข้าห้องตรวจตา"
                 }
             ]
@@ -515,31 +515,31 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture1.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture2.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture3.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture3.png",
                     "description": "เลี้ยวซ้ายไปที่ลิฟท์โดยสาร"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture4.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture4.png",
                     "description": "ขึ้นไปที่ชั้น 4"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture5.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture5.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture6.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture6.png",
                     "description": "เข้าประตูแล้วเลี้ยวซ้าย จากนั้นเลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture7.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture7.png",
                     "description": "เดินตรงไป เข้าห้องตรวจหู คอ จมูก"
                 }
             ]
@@ -550,31 +550,31 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture1.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture2.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture3.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture3.png",
                     "description": "เลี้ยวซ้ายไปที่ลิฟท์โดยสาร"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture4.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture4.png",
                     "description": "ขึ้นไปที่ชั้น 4"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture5.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture5.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture6.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture6.png",
                     "description": "เข้าประตูแล้วเลี้ยวซ้าย จากนั้นเลี้ยวขวา"
                 },
                 {
-                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture7.webp",
+                    "path":"/Navigation/1516ent + ภูมิแพ้/Picture7.png",
                     "description": "เดินตรงไป เข้าห้องตรวจหู คอ จมูก"
                 }
             ]
@@ -585,7 +585,7 @@
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.webp",
+                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.png",
                     "description": "บริเวณลานอนุสาวรีย์ท่านเจ้าคุณ"
                 }
             ]
@@ -596,7 +596,7 @@
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.webp",
+                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.png",
                     "description": "บริเวณลานอนุสาวรีย์ท่านเจ้าคุณ"
                 }
             ]
@@ -607,19 +607,19 @@
             "build": "อาคารเจ้าพระยายมราช",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture1.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture1.png",
                     "description": "เดินตรงเข้าอาคารเจ้าพระยายมราชจากด้านหน้า"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture2.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture2.png",
                     "description": "ตรงเข้าไปเลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture3.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture3.png",
                     "description": "ตรงไป"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture4.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture4.png",
                     "description": "จุดตรวจอยู่ที่ชั้น 1"
                 }
             ]
@@ -630,19 +630,19 @@
             "build": "อาคารเจ้าพระยายมราช",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture1.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture1.png",
                     "description": "เดินตรงเข้าอาคารเจ้าพระยายมราชจากด้านหน้า"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture2.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture2.png",
                     "description": "ตรงเข้าไปเลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture3.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture3.png",
                     "description": "ตรงไป"
                 },
                 {
-                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture4.webp",
+                    "path": "/Navigation/1920แผนไทย + ฝังเข็ม/Picture4.png",
                     "description": "จุดตรวจอยู่ที่ชั้น 1"
                 }
             ]
@@ -653,15 +653,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/21วัคซีน/Picture1.webp",
+                    "path": "/Navigation/21วัคซีน/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path": "/Navigation/21วัคซีน/Picture2.webp",
+                    "path": "/Navigation/21วัคซีน/Picture2.png",
                     "description": "เลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/21วัคซีน/Picture3.webp",
+                    "path": "/Navigation/21วัคซีน/Picture3.png",
                     "description": "เดินตรงไป จุดฉีดวัคซีนอยู่บริเวณหน้าลิฟท์"
                 }
             ]
@@ -672,15 +672,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture1.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture2.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture3.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture3.png",
                     "description": "จุดฟังผล และจ่ายยา จะอยู่บริเวณซ้ายมือ"
                 }
             ]
@@ -691,15 +691,15 @@
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture1.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture1.png",
                     "description": "ขึ้นทางลาด และเลี้ยวซ้ายเข้าอาคารศูนย์โรคหัวใจ"
                 },
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture2.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture2.png",
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture3.webp",
+                    "path": "/Navigation/2223ฟังผล+จ่ายยา/Picture3.png",
                     "description": "จุดฟังผล และจ่ายยา จะอยู่บริเวณซ้ายมือ"
                 }
             ]
@@ -710,27 +710,27 @@
             "build": "อาคารสนับสนุนทางการแพทย์",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/24กายภาพ/Picture1.webp",
+                    "path": "/Navigation/24กายภาพ/Picture1.png",
                     "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู่ป่วย 100 เตียง"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture2.webp",
+                    "path": "/Navigation/24กายภาพ/Picture2.png",
                     "description": "เดินตรงผ่านไปยังอาคารผู้ป่วยพิเศษ 5 ชั้น"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture3.webp",
+                    "path": "/Navigation/24กายภาพ/Picture3.png",
                     "description": "เดินตรงไปจนสุดทาง"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture4.webp",
+                    "path": "/Navigation/24กายภาพ/Picture4.png",
                     "description": "เลี้ยวซ้าย จากนั้นเลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture5.webp",
+                    "path": "/Navigation/24กายภาพ/Picture5.png",
                     "description": "เดินเข้าอาคารสนับสนุนทางการแพทย์"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture6.webp",
+                    "path": "/Navigation/24กายภาพ/Picture6.png",
                     "description": "ตรงเข้าไปที่กลุ่มงานเวชกรรมฟื้นฟู"
                 }
             ]
@@ -741,31 +741,31 @@
             "build": "อาคารสนับสนุนทางการแพทย์",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/25ความรู้/Picture1.webp",
+                    "path": "/Navigation/25ความรู้/Picture1.png",
                     "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู่ป่วย 100 เตียง"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture2.webp",
+                    "path": "/Navigation/25ความรู้/Picture2.png",
                     "description": "เดินตรงผ่านไปยังอาคารผู้ป่วยพิเศษ 5 ชั้น"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture3.webp",
+                    "path": "/Navigation/25ความรู้/Picture3.png",
                     "description": "เดินตรงไปจนสุดทาง"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture4.webp",
+                    "path": "/Navigation/25ความรู้/Picture4.png",
                     "description": "เลี้ยวซ้าย จากนั้นเลี้ยวขวา"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture5.webp",
+                    "path": "/Navigation/25ความรู้/Picture5.png",
                     "description": "เดินเข้าอาคารสนับสนุนทางการแพทย์"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture6.webp",
+                    "path": "/Navigation/25ความรู้/Picture6.png",
                     "description": "ขึ้นลิฟท์โดยสารไปที่ชั้น 4"
                 },
                 {
-                    "path": "/Navigation/25ความรู้/Picture7.webp",
+                    "path": "/Navigation/25ความรู้/Picture7.png",
                     "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา ตรงเจ้าไปที่บริเวณศูนย์อาหาร"
                 }
             ]
@@ -776,7 +776,7 @@
             "build": "สำนักงานเทศบาลเมืองสุพรรณบุรี",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/27หมาแมว/Picture1.webp",
+                    "path": "/Navigation/27หมาแมว/Picture1.png",
                     "description": "บริเวณสำนักงานเทศบาลเมืองสุพรรณบุรี"
                 }
             ]
@@ -787,7 +787,7 @@
             "build": "อาคารสนับสนุนทางการแพทย์",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/26อาหาร/Picture1.webp",
+                    "path": "/Navigation/26อาหาร/Picture1.png",
                     "description": "บริเวณอาหารจอดรถ รพ.เจ้าพระยายมราช"
                 }
             ]
@@ -798,7 +798,7 @@
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [
                 {
-                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.webp",
+                    "path": "/Navigation/1718เต้านม + มดลูก/Picture1.png",
                     "description": "บริเวณลานอนุสาวรีย์ท่านเจ้าคุณ"
                 }
             ]

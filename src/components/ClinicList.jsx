@@ -77,20 +77,28 @@ const LoadingFallback = () => (
 );
 
 // Back button component
-const BackButton = ({ onClick, icon: Icon, text }) => (
-    <button 
-        onClick={onClick}
-        className="flex items-center justify-center bg-[#7ac142] text-white px-5 py-2.5 rounded-lg hover:bg-[#68a936] transition-all shadow-sm hover:shadow font-medium w-full max-w-xs"
-    >
-        <Icon size={16} className="mr-2" />
-        {text}
-    </button>
-);
+const BackButton = ({ onClick, icon: Icon, text, variant = "primary" }) => {
+    const styles = {
+        primary: "bg-[#7ac142] text-white hover:bg-[#68a936]",
+        secondary: "bg-white border border-gray-300 text-gray-700 hover:bg-gray-50"
+    };
+    
+    return (
+        <button 
+            onClick={onClick}
+            className={`flex items-center justify-center ${styles[variant]} px-4 py-2 rounded-lg transition-all shadow-sm hover:shadow font-medium text-sm`}
+        >
+            <Icon size={14} className={`mr-1.5 ${variant === "secondary" ? "text-[#7ac142]" : ""}`} />
+            {text}
+        </button>
+    );
+};
 
 BackButton.propTypes = {
     onClick: PropTypes.func.isRequired,
     icon: PropTypes.elementType.isRequired,
-    text: PropTypes.string.isRequired
+    text: PropTypes.string.isRequired,
+    variant: PropTypes.oneOf(["primary", "secondary"])
 };
 
 // Main component
@@ -161,34 +169,35 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
             {selectedBuild == null ? (
                 // All clinics view
                 <>
-                    <div className="flex items-center mb-6">
-                        <HiOutlineMap size={24} className="text-[#7ac142] mr-2" />
+                    <div className="flex items-center mb-6 justify-center">
                         <h2 className="text-xl font-bold text-gray-800">คลินิกทั้งหมด</h2>
                     </div>
-                    <div className="grid grid-cols-4 gap-4 p-2">
+                    <div className="grid grid-cols-3 gap-4 p-2">
                         {allClinics}
                     </div>
                 </>
             ) : (
                 // Building-specific clinics view
                 <>
-                    <div className="mb-6 flex items-center">
-                        <FaHospital size={24} className="text-[#7ac142] mr-2" /> 
+                    <div className="mb-6 flex items-center justify-center">
                         <h1 className="text-xl font-bold text-gray-800">
                             {selectedBuild}
                         </h1>
                     </div>
                     
-                    <div className="grid grid-cols-4 gap-4 p-2">
+                    <div className="grid grid-cols-3 gap-4 p-2">
                         {clinicsInBuild}
                     </div>
                     
-                    <div className="fixed bottom-0 left-0 right-0 p-4 flex justify-center shadow-md border-t border-[#7ac142]/20 mx-4 mb-2 rounded-t-xl bg-white/70 backdrop-blur-md">
-                        <BackButton 
-                            onClick={handleBackToBuildings}
-                            icon={FaArrowLeft}
-                            text="คลินิกทั้งหมด"
-                        />
+                    <div className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-sm shadow-md border-t border-[#7ac142]/20">
+                        <div className="container mx-auto px-4 py-3 flex justify-center gap-x-3 max-w-md">
+                            <BackButton 
+                                onClick={handleBackToBuildings}
+                                icon={FaArrowLeft}
+                                text="คลินิกทั้งหมด"
+                                variant="primary"
+                            />
+                        </div>
                     </div>
                 </>
             )}

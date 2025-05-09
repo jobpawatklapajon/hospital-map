@@ -29,24 +29,24 @@ function App() {
 
   // Component styles
   const mapContainerClass = `
+    p-2
+    bg-white
     transition-all 
     duration-500 
     ease-in-out 
     ${selectedClinic ? 'h-0' : mapExpanded ? 'h-2/5' : 'h-2/5'} 
-    shadow-md 
-    rounded-b-xl 
     overflow-hidden
   `;
   
   const clinicListContainerClass = `
+    rounded-t-xl
+    shadow-md
     bg-white 
     transition-all 
     duration-500 
     ease-in-out 
     ${selectedClinic ? 'h-full flex-1' : mapExpanded ? 'h-3/5' : 'h-3/5'} 
-    overflow-y-auto
-    rounded-t-xl
-    shadow-inner
+    overflow-y-hidden
     border-t
     border-gray-200
   `;
@@ -60,7 +60,8 @@ function App() {
         onTouchStart={handleMapTouch}
       >
         {!selectedClinic && (
-          <div className='flex items-center justify-center h-full'>
+          <div className='relative flex items-center justify-center h-full'>
+            {/* <span className='absolute bottom-0 left-1/2 -translate-x-1/2 text-sm text-gray-500 z-10'>กดเพื่อเลือกตึก</span> */}
             <MapView 
               setSelectedBuild={handleSelectedBuild} 
               build={selectedBuild} 

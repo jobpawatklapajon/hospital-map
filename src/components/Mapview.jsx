@@ -42,19 +42,19 @@ const MapView = ({ setSelectedBuild, build }) => {
     }, [handleClick]);
 
     return (
-        <div className="relative overflow-hidden rounded-xl shadow-xl bg-white flex items-center justify-center">
+        <div className="relative overflow-hidden flex items-center justify-center">
             <div className="relative w-full h-full">
                 <img
                     src={imgUrl}
                     alt="แผนที่โรงพยาบาล"
-                    className="rounded-xl z-0 select-none pointer-events-none"
+                    className="select-none pointer-events-none"
                     loading="eager"
                     decoding="async"
                 />
                 {buildings.map((building) => (
                     <div
                         key={building.id}
-                        className={`${buildingStyles[building.className]} ${selectedStyle === buildingStyles[building.className] ? 'opacity-70' : 'opacity-0'}`}
+                        className={`${buildingStyles[building.className]}`}
                         onClick={(e) => handleClick(building.name, e)}
                         onTouchStart={(e) => handleTouchStart(e, building.name)}
                     />
