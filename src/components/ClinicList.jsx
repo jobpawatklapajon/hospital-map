@@ -209,7 +209,7 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
             {selectedBuild == null ? (
                 // All clinics view
                 <>
-                    <div className="flex items-center mb-6 justify-between">
+                    <div className="flex flex-col items-center mb-6 justify-center">
                         <h2 className="text-xl font-bold text-gray-800">คลินิกทั้งหมด</h2>
                         <p className="text-sm text-gray-400">แตะเลือกคลินิกที่ต้องการเพื่อนำทาง</p>
                     </div>
