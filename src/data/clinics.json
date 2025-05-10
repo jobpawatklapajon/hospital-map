@@ -784,11 +784,11 @@
         {
             "name": "clinic 27",
             "icon": "/icons/27.png",
-            "build": "อาคารสนับสนุนทางการแพทย์",
+            "build": "อาคารจอดรถ 7 ชั้น",
             "navigation_guide": [
                 {
                     "path": "/Navigation/26อาหาร/Picture1.png",
-                    "description": "บริเวณอาหารจอดรถ รพ.เจ้าพระยายมราช"
+                    "description": "บริเวณอาคารจอดรถ รพ.เจ้าพระยายมราช"
                 }
             ]
         },
