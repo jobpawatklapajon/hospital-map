@@ -42,7 +42,7 @@ const MapView = ({ setSelectedBuild, build }) => {
     }, [handleClick]);
 
     return (
-        <div className="relative overflow-hidden flex items-center justify-center">
+        <div className="relative overflow-hidden flex flex-col items-center justify-center">
             <div className="relative w-full h-full">
                 <img
                     src={imgUrl}
@@ -60,6 +60,7 @@ const MapView = ({ setSelectedBuild, build }) => {
                     />
                 ))}
             </div>
+            <p className="text-sm text-gray-400">แสดงคลินิกภายในตึกโดยการแตะลงบนแผนที่</p>
         </div>
     );
 };

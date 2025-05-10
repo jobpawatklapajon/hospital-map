@@ -209,8 +209,9 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
             {selectedBuild == null ? (
                 // All clinics view
                 <>
-                    <div className="flex items-center mb-6 justify-center">
+                    <div className="flex items-center mb-6 justify-between">
                         <h2 className="text-xl font-bold text-gray-800">คลินิกทั้งหมด</h2>
+                        <p className="text-sm text-gray-400">แตะเลือกคลินิกที่ต้องการเพื่อนำทาง</p>
                     </div>
                     <div className="grid grid-cols-3 gap-4 p-2">
                         {allClinics}
@@ -219,10 +220,11 @@ export default function ClinicList({ selectedBuild, handleSelectedBuild, selecte
             ) : (
                 // Building-specific clinics view
                 <>
-                    <div className="mb-6 flex items-center justify-center">
+                    <div className="mb-6 flex flex-col items-center justify-center">
                         <h1 className="text-xl font-bold text-gray-800">
                             {selectedBuild}
                         </h1>
+                        <p className="text-sm text-gray-400">แตะเลือกคลินิกที่ต้องการเพื่อนำทาง</p>
                     </div>
                     
                     <div className="grid grid-cols-3 gap-4 p-2">

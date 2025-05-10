@@ -1,7 +1,8 @@
 {
     "clinics": [
         {
-            "name": "clinic 1",
+            "id": "clinic 0",
+            "name": "จุดลงทะเบียน",
             "icon": "/icons/00.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [ 
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "name": "clinic 2",
+            "id": "clinic 1",
+            "name": "จุดเจาะเลือด",
             "icon": "/icons/01.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -35,7 +37,8 @@
             ]
         },
         {
-            "name": "clinic 3",
+            "id": "clinic 2",
+            "name": "คลินิกตรวจตับ",
             "icon": "/icons/02.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -58,7 +61,8 @@
             ]
         },
         {
-            "name": "clinic 4",
+            "id": "clinic 3",
+            "name": "คลินิกตรวจกระดูกและข้อ",
             "icon": "/icons/03.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -85,7 +89,8 @@
             ]
         },
         {
-            "name": "clinic 4",
+            "id": "clinic 4",
+            "name": "จุด X-Ray ปอด",
             "icon": "/icons/04.png",
             "build": "อาคารออร์โธปิดิกส์",
             "navigation_guide": [
@@ -112,7 +117,8 @@
             ]
         },
         {
-            "name": "clinic 5",
+            "id": "clinic 5",
+            "name": "คลินิกตรวจฟัน",
             "icon": "/icons/05.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -143,131 +149,8 @@
             ]
         },
         {
-            "name": "clinic 5.1",
-            "icon": "/icons/05.1.png",
-            "build": "อาคารอำนวยการ 11 ชั้น",
-            "navigation_guide": [
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
-                    "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
-                    "description": "เลี้ยวซ้าย"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
-                    "description": "เลี้ยวขวา"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
-                    "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
-                    "description": "ขึ้นไปที่ชั้น 2"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
-                    "description": "ตรงเข้าแผนกผู้ป่วยนอก"
-                }
-            ]
-        },
-        {
-            "name": "clinic 5.2",
-            "icon": "/icons/05.2.png",
-            "build": "อาคารอำนวยการ 11 ชั้น",
-            "navigation_guide": [
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
-                    "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
-                    "description": "เลี้ยวซ้าย"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
-                    "description": "เลี้ยวขวา"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
-                    "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
-                    "description": "ขึ้นไปที่ชั้น 2"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
-                    "description": "ตรงเข้าแผนกผู้ป่วยนอก"
-                }
-            ]
-        },
-        {
-            "name": "clinic 5.3",
-            "icon": "/icons/05.3.png",
-            "build": "อาคารอำนวยการ 11 ชั้น",
-            "navigation_guide": [
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
-                    "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
-                    "description": "เลี้ยวซ้าย"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
-                    "description": "เลี้ยวขวา"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
-                    "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
-                    "description": "ขึ้นไปที่ชั้น 2"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
-                    "description": "ตรงเข้าแผนกผู้ป่วยนอก"
-                }
-            ]
-        },
-        {
-            "name": "clinic 5.4",
-            "icon": "/icons/05.4.png",
-            "build": "อาคารอำนวยการ 11 ชั้น",
-            "navigation_guide": [
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture1.png",
-                    "description": "เดินตรงเข้าไปในอาคารอำนวยการ"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture2.png",
-                    "description": "เลี้ยวซ้าย"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture3.png",
-                    "description": "เลี้ยวขวา"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture4.png",
-                    "description": "ตรงไปจนสุดทางเดิน ไปที่ลิฟท์โดยสาร/บันได"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture5.png",
-                    "description": "ขึ้นไปที่ชั้น 2"
-                },
-                {
-                    "path": "/Navigation/0506ฟัน+ต่อมลูกหมาก/Picture6.png",
-                    "description": "ตรงเข้าแผนกผู้ป่วยนอก"
-                }
-            ]
-        },
-        {
-            "name": "clinic 6",
+            "id": "clinic 6",
+            "name": "คลินิกต่อมลูกหมาก",
             "icon": "/icons/06.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -298,7 +181,8 @@
             ]
         },
         {
-            "name": "clinic 7",
+            "id": "clinic 7",
+            "name": "คลินิกเด็ก",
             "icon": "/icons/07.png",
             "build": "อาคารอำนวยการ 11 ชั้น",
             "navigation_guide": [
@@ -333,7 +217,8 @@
             ]
         },
         {
-            "name": "clinic 8",
+            "id": "clinic 8",
+            "name": "จุดตรวจหัวใจ",
             "icon": "/icons/08.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -352,7 +237,8 @@
             ]
         },
         {
-            "name": "clinic 9",
+            "id": "clinic 9",
+            "name": "จุดตรวจ Echo หัวใจ",
             "icon": "/icons/09.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -371,7 +257,8 @@
             ]
         },
         {
-            "name": "clinic 10",
+            "id": "clinic 10",
+            "name": "จุดตรวจ ABI",
             "icon": "/icons/10.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -390,7 +277,8 @@
             ]
         },
         {
-            "name": "clinic 11",
+            "id": "clinic 11",
+            "name": "จุดตรวจหลอดเลือดที่ท้อง",
             "icon": "/icons/11.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -403,13 +291,14 @@
                     "description": "เลี้ยวซ้าย"
                 },
                 {
-                    "path":"/Navigation/11หลอดเลือดที่ท้อง/Picture3.png",
+                    "path":"/Navigation/11หลอดเลือด/Picture3.png",
                     "description": "ตรงไปจนสุดทางเดิน จุดตรวจจะอยู่ด้านขวามือ"
                 }
             ]
         },
         {
-            "name": "clinic 12",
+            "id": "clinic 12",
+            "name": "คลินิกผิวหนัง",
             "icon": "/icons/12.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -440,7 +329,8 @@
             ]
         },
         {
-            "name": "clinic 13",
+            "id": "clinic 13",
+            "name": "คลินิกจิตเวช",
             "icon": "/icons/13.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -479,7 +369,8 @@
             ]
         },
         {
-            "name": "clinic 14",
+            "id": "clinic 14",
+            "name": "คลินิกตา",
             "icon": "/icons/14.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -510,7 +401,8 @@
             ]
         },
         {
-            "name": "clinic 15",
+            "id": "clinic 15",
+            "name": "คลินิก หู คอ จมูก",
             "icon": "/icons/15.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -545,7 +437,8 @@
             ]
         },
         {
-            "name": "clinic 16",
+            "id": "clinic 16",
+            "name": "คลินิกภูมิแพ้",
             "icon": "/icons/16.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -580,7 +473,8 @@
             ]
         },
         {
-            "name": "clinic 17",
+            "id": "clinic 17",
+            "name": "จุดตรวจเต้านม",
             "icon": "/icons/17.png",
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [
@@ -591,7 +485,8 @@
             ]
         },
         {
-            "name": "clinic 18",
+            "id": "clinic 18",
+            "name": "จุดตรวจมดลูก",
             "icon": "/icons/18.png",
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [
@@ -602,7 +497,8 @@
             ]
         },
         {
-            "name": "clinic 19",
+            "id": "clinic 19",
+            "name": "คลินิกแผนไทย",
             "icon": "/icons/19.png",
             "build": "อาคารเจ้าพระยายมราช",
             "navigation_guide": [
@@ -625,7 +521,8 @@
             ]
         },
         {
-            "name": "clinic 20",
+            "id": "clinic 20",
+            "name": "คลินิกฝังเข็ม",
             "icon": "/icons/20.png",
             "build": "อาคารเจ้าพระยายมราช",
             "navigation_guide": [
@@ -648,7 +545,8 @@
             ]
         },
         {
-            "name": "clinic 21",
+            "id": "clinic 21",
+            "name": "จุดรับบริการฉีดวัคซีน",
             "icon": "/icons/21.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -667,7 +565,8 @@
             ]
         },
         {
-            "name": "clinic 22",
+            "id": "clinic 22",
+            "name": "จุดฟังผล",
             "icon": "/icons/22.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -686,7 +585,8 @@
             ]
         },
         {
-            "name": "clinic 23",
+            "id": "clinic 23",
+            "name": "จุดจ่ายยา",
             "icon": "/icons/23.png",
             "build": "อาคารศูนย์โรคหัวใจ",
             "navigation_guide": [
@@ -705,13 +605,14 @@
             ]
         },
         {
-            "name": "clinic 24",
+            "id": "clinic 24",
+            "name": "คลินิกกายภาพ",
             "icon": "/icons/24.png",
             "build": "อาคารสนับสนุนทางการแพทย์",
             "navigation_guide": [
                 {
                     "path": "/Navigation/24กายภาพ/Picture1.png",
-                    "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู่ป่วย 100 เตียง"
+                    "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู้ป่วย 100 เตียง"
                 },
                 {
                     "path": "/Navigation/24กายภาพ/Picture2.png",
@@ -722,7 +623,7 @@
                     "description": "เดินตรงไปจนสุดทาง"
                 },
                 {
-                    "path": "/Navigation/24กายภาพ/Picture4.png",
+                    "path": "/Navigation/25ความรู้/Picture4.png",
                     "description": "เลี้ยวซ้าย จากนั้นเลี้ยวขวา"
                 },
                 {
@@ -736,7 +637,8 @@
             ]
         },
         {
-            "name": "clinic 25",
+            "id": "clinic 25",
+            "name": "จุดให้ความรู้และแจกรางวัล",
             "icon": "/icons/25.png",
             "build": "อาคารสนับสนุนทางการแพทย์",
             "navigation_guide": [
@@ -766,12 +668,13 @@
                 },
                 {
                     "path": "/Navigation/25ความรู้/Picture7.png",
-                    "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา ตรงเจ้าไปที่บริเวณศูนย์อาหาร"
+                    "description": "ออกจากลิฟท์ แล้วเลี้ยวขวา ตรงเข้าไปที่บริเวณศูนย์อาหาร"
                 }
             ]
         },
         {
-            "name": "clinic 26",
+            "id": "clinic 26",
+            "name": "คลินิกสัตว์เลี้ยง",
             "icon": "/icons/26.png",
             "build": "สำนักงานเทศบาลเมืองสุพรรณบุรี",
             "navigation_guide": [
@@ -782,7 +685,8 @@
             ]
         },
         {
-            "name": "clinic 27",
+            "id": "clinic 27",
+            "name": "จุดรับอาหาร",
             "icon": "/icons/27.png",
             "build": "อาคารจอดรถ 7 ชั้น",
             "navigation_guide": [
@@ -793,7 +697,8 @@
             ]
         },
         {
-            "name": "clinic 28",
+            "id": "clinic 28",
+            "name": "จุดประชาสัมพันธ์",
             "icon": "/icons/28.png",
             "build": "อนุสาวรีย์ท่านเจ้าคุณ",
             "navigation_guide": [

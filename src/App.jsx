@@ -79,7 +79,7 @@ function App() {
       >
         {!selectedClinic && (
           <div className='relative flex items-center justify-center h-full'>
-            {/* <span className='absolute bottom-0 left-1/2 -translate-x-1/2 text-sm text-gray-500 z-10'>กดเพื่อเลือกตึก</span> */}
+            {/* <span className='absolute top-18/19 left-2/3 -translate-x-1/2 text-sm text-gray-500 z-10 w-full'>แสดงคลินิกภายในตึกโดยการแตะลงบนแผนที่</span> */}
             <MapView 
               setSelectedBuild={handleSelectedBuild} 
               build={selectedBuild} 
