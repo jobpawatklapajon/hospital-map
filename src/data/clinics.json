@@ -104,7 +104,7 @@
                 },
                 {
                     "path": "/Navigation/04X-ray/Picture3.png",
-                    "description": "เดินตรงไปตนสุดทาง"
+                    "description": "เดินตรงไปจนสุดทาง"
                 },
                 {
                     "path": "/Navigation/04X-ray/Picture4.png",
@@ -112,7 +112,7 @@
                 },
                 {
                     "path": "/Navigation/04X-ray/Picture5.png",
-                    "description": "เลี้ยวขวา เข้าอาคารออรืโธปิดิคส์"
+                    "description": "เลี้ยวขวา เข้าอาคารออร์โธปิดิกส์"
                 }
             ]
         },
@@ -644,7 +644,7 @@
             "navigation_guide": [
                 {
                     "path": "/Navigation/25ความรู้/Picture1.png",
-                    "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู่ป่วย 100 เตียง"
+                    "description": "เดินตรงผ่านหน้า อาคารอุบัติเหตุ เข้าไปที่อาคารผู้ป่วย 100 เตียง"
                 },
                 {
                     "path": "/Navigation/25ความรู้/Picture2.png",
